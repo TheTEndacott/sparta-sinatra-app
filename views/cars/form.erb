@@ -1,0 +1,24 @@
+<form class="" action="/<%= @car.id %>" method="POST">
+  <div class="">
+    <label>Make</label>
+    <input type="text" name="make" placeholder="Car make" value="<%= @car.make %>">
+  </div>
+
+  <div class="">
+    <label>Model</label>
+    <input type="text" name="model" placeholder="Car model" value="<%= @car.model %>">
+  </div>
+
+  <div class="">
+    <label>Country</label>
+    <input type="text" name="country" placeholder="Country of origin" value="<%= @car.country %>"></input>
+  </div>
+
+  <div class="">
+    <input type="submit" name="" value="Save car">
+  </div>
+
+  <% if @car.id != "" %>
+    <input type="hidden" name="_method" value="PUT">
+  <% end %>
+</form>

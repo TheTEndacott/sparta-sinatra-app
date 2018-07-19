@@ -1,0 +1,13 @@
+<div class="row column12">
+  <h1>Cars</h1>
+  <% @cars.each do |car| %>
+    <div class="col-md-6 column6">
+      <h2><%= car.make %></h2>
+      <h3><%= car.model %></h3>
+      <h4><%= car.country %></h4>
+      <form action="/<%= car.id %>" method="GET">
+        <input class="id-button" type="submit" name="" value="ID: <%= car.id %>">
+      </form>
+    </div>
+  <% end %>
+</div>

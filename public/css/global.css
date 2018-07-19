@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-image: url(../images/roads.jpg);
+  background-size: cover;
+  color: purple;
+}
+
+.navi {
+  font-size: 2rem;
+  padding: 0 50px;
+  color: #222222;
+}
+
+.navi:hover {
+  text-decoration: none;
+}
+
+label {
+  width: 60px;
+}
+
+.column6 {
+  padding-top: 50px;
+}
+
+.container {
+  background-color: #FAFAFA;
+  height: 100vh;
+}
+
+.button, .id-button {
+  border: solid black 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}

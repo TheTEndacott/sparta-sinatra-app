@@ -17,6 +17,7 @@ body {
 
 label {
   width: 60px;
+  padding-bottom: 20px;
 }
 
 .column6 {
@@ -25,7 +26,8 @@ label {
 
 .container {
   background-color: #FAFAFA;
-  height: 100vh;
+  height: 100%;
+  padding-bottom: 50px;
 }
 
 .button, .id-button {

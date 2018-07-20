@@ -68,7 +68,7 @@ class CarsController < Sinatra::Base
   end
 
   # DESTROY
-  delete ":id" do
+  delete "/:id" do
     id = params[:id].to_i
 
     Car.destroy(id)

@@ -12,7 +12,4 @@ $(function(){
   $("h4:contains('UK')").append(" <img style='width: 32px;' src='images/uk.png'>");
   $("h4:contains('USA')").append(" <img style='width: 32px;' src='images/usa.png'>");
 
-
-
-
 });

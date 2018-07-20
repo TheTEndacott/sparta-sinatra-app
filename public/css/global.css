@@ -1,8 +1,15 @@
+
 body {
+  font-family: 'Comfortaa', sans-serif;
   text-align: center;
   background-image: url(../images/roads.jpg);
   background-size: cover;
   color: purple;
+}
+
+h1 {
+  font-family: 'Righteous', sans-serif;
+  font-size: 4rem;
 }
 
 .navi {
@@ -20,14 +27,14 @@ label {
   padding-bottom: 20px;
 }
 
-.column6 {
-  padding-top: 50px;
-}
-
 .container {
   background-color: #FAFAFA;
   height: 100%;
   padding-bottom: 50px;
+}
+
+.column6 {
+  padding-top: 40px;
 }
 
 .button, .id-button {
